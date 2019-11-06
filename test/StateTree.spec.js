@@ -2,7 +2,7 @@
 import { Schema } from '@orbit/data'
 import { StateTree } from '../lib'
 import { expect } from 'chai'
-import Store from '@orbit/store'
+import Store from '@orbit/memory'
 
 describe('StateTree', () => {
   let store, schema, stateTree
