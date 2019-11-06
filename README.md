@@ -89,11 +89,11 @@ stateTree.onChange(data => {
         requests: {
             1: {
                 id: 1,
-                completed: false,
+                completed: true,
                 results: {
                     planets: ['123']
                 },
-                error: {}
+                error: null
             }
         }
     }
